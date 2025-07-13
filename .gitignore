@@ -1,0 +1,11 @@
+".venv/" 
+# .gitignore
+__pycache__/
+*.pyc
+.venv/
+.env
+*.pkl
+*.log
+*.sqlite3
+.DS_Store
+
