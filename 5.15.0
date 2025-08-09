@@ -1,0 +1,8 @@
+Collecting plotly
+  Downloading plotly-6.2.0-py3-none-any.whl.metadata (8.5 kB)
+Requirement already satisfied: narwhals>=1.15.1 in c:\users\t.abdelgafar\appdata\local\programs\python\python310\lib\site-packages (from plotly) (2.0.1)
+Requirement already satisfied: packaging in c:\users\t.abdelgafar\appdata\local\programs\python\python310\lib\site-packages (from plotly) (23.2)
+Downloading plotly-6.2.0-py3-none-any.whl (9.6 MB)
+   ---------------------------------------- 9.6/9.6 MB 42.8 MB/s  0:00:00
+Installing collected packages: plotly
+Successfully installed plotly-6.2.0
