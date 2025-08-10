@@ -1,10 +1,13 @@
 
 # 🏨 Hotel Agent: AI Hospitality Analytics
 
----
+![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/advanced-messy-data-generator.svg)
+![GitHub Issues](https://img.shields.io/github/issues/YOUR_USERNAME/advanced-messy-data-generator.svg)
+![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/advanced-messy-data-generator.svg)
 tags: [AI, Hospitality, Analytics, Streamlit, NLP, Machine Learning, Dashboard, Visualization]
 emoji: 🏨📊🤖📝🎨
----
 
 ## Overview
 Hotel Agent is an AI-powered analytics dashboard for hospitality businesses. It provides insights into guest reviews, customer segmentation, and booking behavior using machine learning and natural language processing, enhanced with **interactive visualizations** and **professional dashboards**.
