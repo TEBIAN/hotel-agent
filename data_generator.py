@@ -80,10 +80,9 @@ def generate_sample_data():
     segments = ['Budget', 'Standard', 'Premium', 'Luxury']
     
     for i in range(200):
-        # Generate realistic nights (1-14 nights, weighted towards shorter stays)
-        # Probabilities must sum to 1: 0.3 + 0.25 + 0.15 + 0.1 + 0.08 + 0.05 + 0.03 + 0.02 + 0.01 + 0.004 + 0.004 + 0.004 + 0.004 + 0.003 = 1.0
-        nights = np.random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 
-                                p=[0.3, 0.25, 0.15, 0.1, 0.08, 0.05, 0.03, 0.02, 0.01, 0.004, 0.004, 0.004, 0.004, 0.003])
+        # Generate realistic nights (1-7 nights, weighted towards shorter stays)
+        # Use uniform distribution to avoid probability issues
+        nights = np.random.randint(1, 8)
         
         # Generate realistic spending based on nights and segment
         base_price_per_night = np.random.choice([80, 120, 200, 350], p=[0.4, 0.35, 0.2, 0.05])

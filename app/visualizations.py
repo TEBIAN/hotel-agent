@@ -153,9 +153,7 @@ def create_revenue_analysis_charts(df_bookings):
     # Create subplots for different revenue metrics
     fig = make_subplots(
         rows=2, cols=2,
-        subplot_titles=('Revenue Distribution', 'Revenue by Nights', 'Cumulative Revenue', 'Revenue Trends'),
-        specs=[[{"type": "histogram"}, {"type": "bar"}],
-               [{"type": "scatter"}, {"type": "line"}]]
+        subplot_titles=('Revenue Distribution', 'Revenue by Nights', 'Cumulative Revenue', 'Revenue Trends')
     )
     
     # Revenue distribution histogram
